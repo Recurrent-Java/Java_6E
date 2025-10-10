@@ -1,0 +1,36 @@
+# ===== Eclipse =====
+# .settings/ は共有したい設定のみ追加
+!.settings/
+.settings/*
+!.settings/org.eclipse.jdt.core.prefs
+!.settings/org.eclipse.wst.common.project.facet.core.xml
+!.settings/org.eclipse.wst.common.component
+.project
+.classpath
+
+# ===== Java build =====
+bin/
+target/
+build/
+
+# ===== IDE cache / temp =====
+*.log
+*.tmp
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+
+# ===== Maven =====
+dependency-reduced-pom.xml
+
+# ===== Gradle (もし使用している場合) =====
+.gradle/
+build/
+
+# ===== VS Codeなど他IDEの場合 =====
+.vscode/
+
+# ===== その他 =====
+*.iml
+.idea/
